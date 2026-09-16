@@ -1,0 +1,27 @@
+# Refinix Solutions
+
+> Refinix Solutions is a digital development and growth company providing web development, custom software, app development, SEO, digital marketing and social media services for businesses.
+
+Refinix Solutions helps businesses build useful digital products and improve their online presence through technology, design and digital growth services.
+
+The company focuses on practical solutions rather than unnecessary technical complexity.
+
+## Company
+
+- [About Refinix Solutions](https://refinix.in/about): Information about Refinix Solutions, its principles, capabilities and approach.
+- [Our Process](https://refinix.in/process): How Refinix approaches strategy, design, development, launch and improvement.
+- [Our Work](https://refinix.in/work): Selected projects and digital work created by Refinix Solutions.
+- [Contact Refinix Solutions](https://refinix.in/contact): Contact and project enquiry information.
+
+## Services
+
+- [All Services](https://refinix.in/services): Overview of Refinix Solutions' digital services.
+- [Web Development](https://refinix.in/services/web-development-service): Business websites and digital experiences designed around usability, performance, SEO foundations and conversion.
+
+## Business Information
+
+- Business name: Refinix Solutions
+- Website: https://refinix.in
+- Email: contact@refinix.in
+- Primary services: Web Development, Custom Software, App Development, SEO, Digital Marketing, Social Media
+- Website platform: Next.js
