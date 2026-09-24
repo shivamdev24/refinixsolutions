@@ -12,44 +12,170 @@ export const metadata: Metadata = {
     "Explore selected websites, digital experiences and software projects created by Refinix Solutions for businesses and organizations.",
 };
 
+// const projects = [
+//   {
+//     number: "01",
+//     category: "Business Website",
+//     title: "A digital presence built to turn attention into enquiries.",
+//     description:
+//       "Strategy, UX, design and development focused on making the business easier to understand, trust and contact.",
+//     result: "Clearer positioning + stronger conversion path",
+//     tags: ["Strategy", "UX/UI", "Development"],
+//   },
+//   {
+//     number: "02",
+//     category: "Custom Software",
+//     title: "Replacing repetitive work with a system built around the business.",
+//     description:
+//       "A tailored digital workflow that brings business operations into one easier, more reliable experience.",
+//     result: "Less manual work + better operational visibility",
+//     tags: ["Product", "Engineering", "Automation"],
+//   },
+//   {
+//     number: "03",
+//     category: "Lead Generation",
+//     title: "A focused landing experience designed around one action.",
+//     description:
+//       "A campaign-ready page with sharper messaging, stronger proof and a frictionless route from intent to enquiry.",
+//     result: "Focused user journey + campaign-ready foundation",
+//     tags: ["Landing Page", "Conversion", "SEO"],
+//   },
+//   {
+//     number: "04",
+//     category: "E-commerce",
+//     title: "Making product discovery feel simple and buying feel natural.",
+//     description:
+//       "A cleaner shopping experience structured around product confidence, discovery and the path to checkout.",
+//     result: "Better product communication + simpler journey",
+//     tags: ["E-commerce", "UX/UI", "Development"],
+//   },
+// ];
+
+
+
 const projects = [
   {
     number: "01",
     category: "Business Website",
-    title: "A digital presence built to turn attention into enquiries.",
+    title: "Turning a beauty brand into a refined digital experience.",
     description:
-      "Strategy, UX, design and development focused on making the business easier to understand, trust and contact.",
-    result: "Clearer positioning + stronger conversion path",
+      "A premium salon website designed around visual storytelling, service discovery and a clear path from first impression to appointment.",
+    result: "Stronger brand presentation + clearer booking journey",
     tags: ["Strategy", "UX/UI", "Development"],
   },
+
   {
     number: "02",
-    category: "Custom Software",
-    title: "Replacing repetitive work with a system built around the business.",
+    category: "Hotel & Hospitality",
+    title: "Making the experience of staying begin before the booking.",
     description:
-      "A tailored digital workflow that brings business operations into one easier, more reliable experience.",
-    result: "Less manual work + better operational visibility",
-    tags: ["Product", "Engineering", "Automation"],
+      "A hospitality-focused website built to showcase rooms, amenities, surroundings and guest experiences while guiding visitors toward direct bookings.",
+    result: "Immersive presentation + booking-focused user journey",
+    tags: ["UX/UI", "Hospitality", "Development"],
   },
+
   {
     number: "03",
-    category: "Lead Generation",
-    title: "A focused landing experience designed around one action.",
+    category: "Real Estate",
+    title: "Making property discovery feel simpler and more actionable.",
     description:
-      "A campaign-ready page with sharper messaging, stronger proof and a frictionless route from intent to enquiry.",
-    result: "Focused user journey + campaign-ready foundation",
-    tags: ["Landing Page", "Conversion", "SEO"],
+      "A real estate platform structured around property discovery, featured listings, services and consultation, giving prospective buyers a clearer route from search to enquiry.",
+    result: "Structured property discovery + stronger lead journey",
+    tags: ["Real Estate", "UX/UI", "Lead Generation"],
   },
+
   {
     number: "04",
-    category: "E-commerce",
-    title: "Making product discovery feel simple and buying feel natural.",
+    category: "Product Website",
+    title: "Building trust around privacy-first password management.",
     description:
-      "A cleaner shopping experience structured around product confidence, discovery and the path to checkout.",
-    result: "Better product communication + simpler journey",
-    tags: ["E-commerce", "UX/UI", "Development"],
+      "A focused product website for ReVault, communicating local-first security, offline access and core features through a clean product-led experience.",
+    result: "Clear product positioning + stronger download path",
+    tags: ["Product", "UX/UI", "Development"],
+  },
+
+  {
+    number: "05",
+    category: "Business Website",
+    title: "Bringing a local event business into a stronger digital presence.",
+    description:
+      "A conversion-focused website for Saini Event Deoband, presenting weddings, jagrans, birthdays and community events through services, proof and a direct consultation journey.",
+    result: "Clearer service positioning + stronger enquiry flow",
+    tags: ["Strategy", "UX/UI", "Lead Generation"],
+  },
+
+  {
+    number: "06",
+    category: "Custom Software",
+    title: "Turning salon bookings into a smoother, more organized experience.",
+    description:
+      "A custom salon booking system designed to simplify appointment management, organize services and make it easier for customers to book their preferred time.",
+    result: "Simpler appointment management + smoother customer booking",
+    tags: ["Product", "Booking System", "Development"],
+  },
+
+  {
+    number: "07",
+    category: "Manufacturing Website",
+    title: "Giving a traditional wood business a modern digital identity.",
+    description:
+      "A corporate website for Aarv Wood & Veneer that brings products, company expertise, sustainability initiatives and contact information into one professional experience.",
+    result: "Stronger corporate presence + clearer product discovery",
+    tags: ["Corporate", "UX/UI", "Development"],
+  },
+
+  {
+    number: "08",
+    category: "Hospitality",
+    title: "Selling the feeling of a Himalayan stay before the guest arrives.",
+    description:
+      "A destination-focused homestay website built around rooms, amenities, photography and local experiences to help visitors understand the stay and plan their trip.",
+    result: "Better destination storytelling + easier reservation journey",
+    tags: ["Hospitality", "UX/UI", "Development"],
+  },
+
+  {
+    number: "09",
+    category: "Restaurant Website",
+    title: "Turning a restaurant menu into an experience worth exploring.",
+    description:
+      "A food-focused website designed to showcase the restaurant's story, menu, specialties and ordering options while creating a stronger appetite for the brand.",
+    result: "Better menu discovery + stronger ordering intent",
+    tags: ["Branding", "UX/UI", "Development"],
+  },
+
+  {
+    number: "10",
+    category: "IT & Software",
+    title: "Positioning technology expertise around real business outcomes.",
+    description:
+      "A technology consulting experience presenting software development, SEO, digital marketing, infrastructure and integration capabilities in a clear, service-led structure.",
+    result: "Clearer capabilities + stronger B2B positioning",
+    tags: ["Strategy", "Development", "Digital"],
+  },
+
+  {
+    number: "11",
+    category: "Wellness Website",
+    title: "Creating a calmer digital space for mindful movement and wellness.",
+    description:
+      "A wellness-focused website built around yoga classes, instructors, workshops and testimonials, giving visitors a simple path to discover the practice and get started.",
+    result: "Stronger wellness positioning + clearer conversion path",
+    tags: ["UX/UI", "Brand Experience", "Development"],
+  },
+
+  {
+    number: "12",
+    category: "SaaS Product",
+    title: "Turning a complex email workflow into a simple product story.",
+    description:
+      "A SaaS landing experience for MailQuik that communicates email campaigns, analytics, delivery optimization and pricing through a structured product journey.",
+    result: "Clearer product value + stronger trial conversion path",
+    tags: ["SaaS", "Product Design", "Development"],
   },
 ];
+
+
 
 const projectPrinciples = [
   [
@@ -116,7 +242,7 @@ function ProjectVisual({
   return (
     <div className="group relative min-h-[260px] overflow-hidden border-b border-black/10 bg-[#f2f2ef] lg:border-b-0 lg:border-r">
       <Image
-        src={`/work/${index + 1}.png`}
+        src={`/work/h${index + 1}.png`}
         alt={`${title} project preview`}
         width={1600}
         height={1100}

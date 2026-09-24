@@ -113,27 +113,27 @@ const process = [
 const projects = [
   {
     tag: "WEB DESIGN · DEVELOPMENT",
-    title: "Apex Logistics — Smart Transport & Operations",
-    text: "A modern digital platform designed to communicate complex logistics services clearly.",
-    kind: "Dark-Logo",
+    title: "Prestige Hotel — Modern Hospitality Experience",
+    text: "A modern, conversion-focused website for a luxury hotel brand.",
+    kind: "work/h2",
   },
   {
-    tag: "WEB DESIGN · E-COMMERCE",
-    title: "Zara Home Living — Modern Commerce & Product Experience",
-    text: "A refined storefront experience focused on discovery, trust and conversion.",
-    kind: "interior",
+    tag: "WEB DESIGN · DEVELOPMENT",
+    title: "Elixir Salon — Clean, Structured Web Experience",
+    text: "A clean, structured website that communicates the salon's value and services.",
+    kind: "work/h1",
   },
   {
-    tag: "WEB APP · BUSINESS",
-    title: "Vistara Health — Smarter Patient Experience",
-    text: "A simple digital experience that helps users discover services and take action.",
-    kind: "health",
+    tag: "BUSINESS",
+    title: "ASR Infra — Corporate Web Experience",
+    text: "A Real Estate company website designed to establish credibility and communicate value.",
+    kind: "work/h3",
   },
   {
-    tag: "BRAND · WEBSITE",
-    title: "Estate Essentials — Corporate Web Experience",
-    text: "A premium, structured website designed to establish credibility online.",
-    kind: "property",
+    tag: "Event Planner · WEBSITE",
+    title: "Event Planner — Premium Event Planning Website",
+    text: "A premium website for an event planning business that communicates value and builds trust.",
+    kind: "work/h5",
   },
 ];
 
@@ -245,7 +245,7 @@ function SectionTitle({
 function ProjectVisual({ kind }: { kind: string }) {
   return (
     <div
-      className={`relative h-80 overflow-hidden border border-black/5 bg-neutral-100 ${kind}`}
+      className={`relative h-full rounded-3xl overflow-hidden border border-black/5 bg-neutral-100 ${kind}`}
     >
       {/* <div className="absolute inset-5 rounded-[2px] border border-black/10 bg-white/80 shadow-sm">
         <div className="flex items-center justify-between border-b border-black/10 px-4 py-3">
@@ -273,9 +273,9 @@ function ProjectVisual({ kind }: { kind: string }) {
       <Image
         src={`/${kind}.png`}
         alt=""
-        className="object-fit w-full h-full"
+        className="object-cover object-top w-full h-90"
         width={400}
-        height={400}
+        height={600}
       />
     </div>
   );
@@ -647,9 +647,9 @@ export default function Home() {
                   <p className="mt-2 max-w-lg text-sm leading-5 text-neutral-500">
                     {project.text}
                   </p>
-                  <button className="mt-5 flex items-center gap-2 text-[10px] uppercase tracking-[.16em]">
+                  {/* <button className="mt-5 flex items-center gap-2 text-[10px] uppercase tracking-[.16em]">
                     View case study <Arrow />
-                  </button>
+                  </button> */}
                 </div>
               </article>
             </Reveal>
